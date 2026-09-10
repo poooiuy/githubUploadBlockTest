@@ -1,0 +1,17 @@
+TC,Target,Protocol,Action,Expected,Actual,Result,Detail
+"TC-01","GitHub","HTTPS","Clone","Allow","Allow","PASS","clone 성공"
+"TC-02","GitHub","HTTPS","Push-Small","Block","Block","PASS","push 실패(기대대로 차단)"
+"TC-03","GitHub","HTTPS","Push-Large","Block","Block","PASS","push 실패(기대대로 차단)"
+"TC-14","GitHub","SSH","Clone","Block","Block","PASS","clone 실패(기대대로 차단)"
+"TC-15","GitHub","SSH","Push","Block","Block","PASS","push 실패(기대대로 차단)"
+"TC-06","GitHub","HTTPS","GraphQL-write","Block","Block","PASS","HTTP 000000 / 연결실패"
+"TC-07","GitHub","HTTPS","Gist-create","Block","Block","PASS","HTTP 000000 / 연결실패"
+"TC-08","GitHub","HTTPS","Contents-API-Write","Block","Block","PASS","HTTP 000000 / 연결실패"
+"TC-09","GitHub","HTTPS","Contents-API-Delete","Block","N/A","FAIL","TC-08에서 파일이 생성되지 않아 삭제 대상 없음(차단 정상 동작 시사)"
+"TC-10","GitHub","HTTPS","Git-Refs-Update","Block","Block","PASS","현재 ref sha 조회 자체가 차단됨(읽기 GET도 막힘)"
+"TC-16","GitLab","HTTPS","Clone","Allow","Allow","PASS","clone 성공"
+"TC-17","GitLab","HTTPS","Push-Small","Block","Block","PASS","push 실패(기대대로 차단)"
+"TC-18","GitLab","HTTPS","Push-Large","Block","Block","PASS","push 실패(기대대로 차단)"
+"TC-19","GitLab","SSH","Clone","Block","Block","PASS","clone 실패(기대대로 차단)"
+"TC-20","GitLab","SSH","Push","Block","Block","PASS","push 실패(기대대로 차단)"
+
