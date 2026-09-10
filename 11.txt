@@ -1,0 +1,109 @@
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 878 bytes | 10.00 KiB/s, done.
+From https://github.com/poooiuy/githubUploadBlockTest
+   bfdba8b..452392c  master     -> origin/master
+Updating bfdba8b..452392cfewgrgergwergwreerwrhwe
+Fast-forward
+ big31.bin | 3 ---
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 big31.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ fsutil file createnew big15.bin 2527152
+D:\_tuna\workspace\githubUploadBlockTest\big15.bin 파일 작성
+
+71648@LCSKVM00171 MINGW64 /d8b..452392cfewgrgergwergwreerwrhwe
+Fast-forward
+ big31.bin | 3 ---
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 big31.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ fsutil file createnew big15.bin 2527152
+D:\_tuna\workspace\githubUploadBlockTest\big15.bin 파일 작성fsdfsd
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'b'
+[master 425ad57] b
+ 1 file changed, 3 insertions(+)
+ create mode 100644 big15.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git push origin masterLCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'b'
+[master 425ad57] b
+ 1 file changed, 3 insertions(+)
+ create mode 100644 big15.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspacLCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'b'
+[master 425ad57] b
+ 1 file changed, 3 insertions(+)
+ create mode 100644 big15.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspacLCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'b'
+[master 425ad57] b
+ 1 file changed, 3 insertions(+)
+ create mode 100644 big15.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspac
+Uploading LFS objects: 100% (1/1), 2.5 MB | 423 KB/s, done.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 363 bytes | 4.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/poooiuy/githubUploadBlockTest.git
+   452392c..425ad57  master -> master
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m '111'
+[master c65fc2f] 111
+ 1 file changed, 17 insertions(+)
+ create mode 100644 5.txt
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 743 bytes | 41.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/poooiuy/githubUploadBlockTest.git
+   425ad57..c65fc2f  master -> master
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'aadd'
+[master e480af6] aadd
+ 1 file changed, 29 insertions(+)
+ create mode 100644 6.txt
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUp
