@@ -1,0 +1,29 @@
+ta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (2/2), 878 bytes | 10.00 KiB/s, done.
+From https://github.com/poooiuy/githubUploadBlockTest
+   bfdba8b..452392c  master     -> origin/master
+Updating bfdba8b..452392c
+Fast-forward
+ big31.bin | 3 ---
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 big31.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ fsutil file createnew big15.bin 2527152
+D:\_tuna\workspace\githubUploadBlockTest\big15.bin 파일 작성
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git add .
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git commit -m 'b'
+[master 425ad57] b
+ 1 file changed, 3 insertions(+)
+ create mode 100644 big15.bin
+
+71648@LCSKVM00171 MINGW64 /d/_tuna/workspace/githubUploadBlockTest (master)
+$ git push origin master
+Uploading LFS objects: 100% (1/1), 2.5 MB | 423 KB/s, done.
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
